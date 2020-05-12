@@ -1,0 +1,60 @@
+.design {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    background: radial-gradient(darkslategray, black);
+    background-repeat: no-repeat;
+    height: 500px;
+    color: gold;
+    letter-spacing: 2px;
+    margin-top: 10%;
+    margin-left:20%;
+    margin-right: 20%;
+    min-width: 400px;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 60px;
+    color:#ba2d80;
+    font-size: 30pt;
+    letter-spacing: 2px;
+}
+
+.inputBox {
+    width: 200px;
+    height: 20px;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    margin: 20px;
+    background: goldenrod;
+    color: white;
+    font-size: 18pt;
+}
+
+.dropdown {
+    background-color: goldenrod;
+    color: white;
+    width: 60px;
+    height: 30px;
+    font-size: 12pt;
+    margin-left: 10px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+#convertButton {
+    height: 50px;
+    width: 150px;
+    margin: 20px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: #ba2d80;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 2px;
+}

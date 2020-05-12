@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alyssa's Currency Converter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="design">
+        <h1>Currency Converter</h1>
+        <label>Input Amount:</label>
+        <div>
+            <input type="number" id="amountInput" class="inputBox" />
+        </div>
+        <label>From:</label>
+        <select id="fromList" class="dropdown">
+            <option value="USD">USD</option>
+            <option value="VND">VND</option>
+            <option value="KRW">KRW</option>
+            <option value="GBP">GBP</option>
+            <option value="EUR">EUR</option>
+        </select>
+        <label>To:</label>
+        <select id="toList" class="dropdown">
+            <option value="USD">USD</option>
+            <option value="VND">VND</option>
+            <option value="KRW">KRW</option>
+            <option value="GBP">GBP</option>
+            <option value="EUR">EUR</option>
+        </select>
+        <div>
+            <button id="convertButton" onclick="convert()">Convert!</button>
+        </div>
+        <div id="resultArea">Result will display here</div>
+        <script src="main.js"></script>
+    </div>
+</body>
+
+</html>
